@@ -8,7 +8,7 @@ class Person extends User{
     public $age;
 
 
-    public function __construct(string string $user_name, string $psw, string $mail)
+    public function __construct(string $user_name, string $psw, string $mail)
     {
         parent::__construct($user_name, $psw,$mail);
 
